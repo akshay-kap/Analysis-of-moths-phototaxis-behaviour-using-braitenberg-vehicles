@@ -1,0 +1,72 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.8392642285256544 -0.48219579385656225 -0.25124245482059304 1.1349726059405438
+  position -1.1976463816988745 3.3237098436124444 1.8033293507081534
+}
+CircleArena {
+}
+Khepera2 {
+  hidden position_0_0 1888.8534957526144
+  hidden position_0_1 1373.6757516629261
+  hidden rotation_1 1 0 0 4.469672815620681
+  hidden rotation_2 -1 0 0 3.579995407776284
+  translation -0.484435 1.954e-14 -0.477026
+  rotation 0 1 0 -65.01322822114098
+  controller "AK_loveforkapera2"
+}
+Khepera1 {
+  hidden position_0_0 2157.5941742315936
+  hidden position_0_1 1520.7877752882212
+  hidden rotation_2 -0.9999999999999999 0 0 6.087019176174993
+  hidden rotation_3 1 0 0 2.459059049238773
+  translation -0.48531 -1.27219e-05 0.474948
+  rotation -0.06682087180068938 -0.9973477186707517 -0.02885306143276971 0.8166643402504538
+  name "Khepera 4"
+  controller "AK_love"
+  extensionSlot [
+    LED {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 2202.888060543365
+  hidden position_0_1 1522.4917542312667
+  hidden rotation_1 -1 0 0 1.1154230305098356
+  hidden rotation_2 0.9999999999999999 0 0 0.7550801061932558
+  translation 0.478195 -1.67164e-05 0.509441
+  rotation 0.04548364459557127 0.998779848757021 -0.01923673026286256 0.8017944111579075
+  name "Khepera 3"
+  controller "AK_love"
+}
+Khepera1 {
+  hidden position_0_0 2161.553209473565
+  hidden position_0_1 1436.9919405762626
+  hidden rotation_1 1 0 0 2.5203161962127982
+  hidden rotation_2 -1 0 0 1.7097005393168339
+  translation 0.481057 -1.67306e-05 -0.458177
+  rotation 0.007918322000941473 0.9997607686135443 -0.020388862595654856 2.395004130041484
+  name "Khepera 2"
+  controller "AK_love"
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.25
+  location 0 0.3 0
+}
+Shape {
+  appearance RoughPine {
+  }
+  geometry Cylinder {
+    height 0.01
+    radius 0.2
+  }
+}
+TexturedBackground {
+  luminosity 0
+  skyColor [
+    0 0 0
+    0 0 0
+  ]
+}

@@ -1,0 +1,122 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.33122982077765034 0.7670528917083003 0.5494694415065684 3.9967611643354886
+  position -1.4574614449052816 4.099411157201492 0.0427902145056958
+}
+CircleArena {
+}
+Khepera1 {
+  translation -0.646419 -3.92309e-05 -0.308071
+  rotation 0.023545906997785707 0.9997162971132271 0.003593821068074791 2.87091
+  name "Bot 4(5)"
+  controller "AK_love1_1"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.637135 -3.92309e-05 0.325865
+  rotation 0.019904697995231466 0.9996748993143837 0.01593419839513367 -2.365385307179586
+  name "Bot 4(4)"
+  controller "AK_love1_1"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.676954 -3.92309e-05 -0.23451
+  rotation 0.024457193922306976 0.9997007515710795 0.0005029648750115765 2.60918
+  name "Bot 4(3)"
+  controller "AK_love1_1"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.668208 -3.92309e-05 0.259077
+  rotation 0.019904697995231466 0.9996748993143837 0.01593419839513367 -2.365385307179586
+  name "Bot 4(2)"
+  controller "AK_love1_1"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.728321 -0.000164802 -0.0697399
+  rotation -0.03434620145172243 0.9990440422269301 -0.02704330114304829 -3.0324453071795863
+  name "Bot 2(4)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.731422 0 0.00927716
+  rotation -0.0405449121008366 0.998733298077066 0.02979780889330862 -2.2928953071795863
+  name "Bot 2(3)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.696229 -3.92309e-05 0.183022
+  rotation 0.019904697995231466 0.9996748993143837 0.01593419839513367 -2.365385307179586
+  name "Bot 4(1)"
+  controller "AK_love1_1"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.71721 -0.020012 0.0956206
+  rotation -0.01986330825720904 0.999780415610319 0.006676042775241668 -1.9677453071795865
+  name "Bot 2(2)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  translation -0.709869 -1.94017e-05 -0.160436
+  rotation 0.012278905721634342 0.999910465930938 0.005318702478369934 2.84402
+  name "Bot 2"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+PointLight {
+  attenuation 0 0 1
+  location 0 0.3 0
+}
+Shape {
+  appearance RoughPine {
+  }
+  geometry Cylinder {
+    height 0.01
+    radius 0.2
+  }
+}
+TexturedBackground {
+  luminosity 0
+  skyColor [
+    0 0 0
+    0 0 0
+  ]
+}

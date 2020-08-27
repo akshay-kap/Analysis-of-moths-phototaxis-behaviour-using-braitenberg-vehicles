@@ -1,0 +1,74 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5129692191890425 0.7295577795631861 0.45233618741309817 4.510597259826467
+  position -2.0459692065654718 4.085005577028338 0.7779134568969741
+}
+CircleArena {
+}
+Khepera1 {
+  hidden position_0_0 313.10640953560346
+  hidden position_0_1 294.28554688376096
+  hidden rotation_2 0.9999999999999999 0 0 3.710635823375861
+  hidden rotation_3 -1 0 0 2.5430327534999817
+  translation -0.704158 -0.000164802 -0.0743354
+  rotation -0.03434620145172243 0.9990440422269301 -0.02704330114304829 -3.0324453071795863
+  name "Bot 2(4)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 230.17052923602438
+  hidden position_0_1 259.7101318373425
+  hidden rotation_2 -1 0 0 1.3180781775592474
+  hidden rotation_3 -1 0 0 5.666729550159031
+  translation -0.720915 0 0.018666
+  rotation -0.0405449121008366 0.998733298077066 0.02979780889330862 -2.2928953071795863
+  name "Bot 2(3)"
+  controller "AK_love"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 296.7231842008069
+  hidden position_0_1 303.8583043656309
+  hidden rotation_2 -1 0 0 5.038880070545906
+  hidden rotation_3 0.9999999999999999 0 0 0.4505803789892628
+  translation -0.689419 -0.020012 0.0999748
+  rotation -0.01986330825720904 0.999780415610319 0.006676042775241668 -1.9677453071795865
+  name "Bot 2(2)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 2
+  location 0 0.3 0
+}
+Shape {
+  appearance RoughPine {
+  }
+  geometry Cylinder {
+    height 0.01
+    radius 0.2
+  }
+}
+TexturedBackground {
+  luminosity 0
+  skyColor [
+    0 0 0
+    0 0 0
+  ]
+}

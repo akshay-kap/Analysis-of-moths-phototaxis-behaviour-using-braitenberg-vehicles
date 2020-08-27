@@ -1,0 +1,42 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.42183227020300357 0.8173192232723302 0.3924879910072349 4.567714015437129
+  position -2.737769539445822 3.5966179146037685 0.1111621629578678
+}
+CircleArena {
+}
+Khepera1 {
+  hidden position_0_0 8.63747852372727
+  hidden position_0_1 7.7470989856285435
+  hidden rotation_2 -1 0 0 5.97969852372727
+  hidden rotation_3 -1 0 0 5.031108985628544
+  translation -0.730374 -2.28629e-05 0.00608182
+  rotation -0.004715517933303743 0.9999749585726794 -0.005276942124847066 -1.6527413407897693
+  name "Bot 4"
+  controller "AK_love"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+PointLight {
+  attenuation 0 0 1
+  location 0 0.3 0
+}
+Shape {
+  appearance RoughPine {
+  }
+  geometry Cylinder {
+    height 0.01
+    radius 0.2
+  }
+}
+TexturedBackground {
+  luminosity 0
+  skyColor [
+    0 0 0
+    0 0 0
+  ]
+}

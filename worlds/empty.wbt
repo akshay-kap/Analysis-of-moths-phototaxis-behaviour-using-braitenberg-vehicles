@@ -1,0 +1,86 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.9392173656518383 -0.2771185195433911 -0.20267231232731375 1.3527128673077506
+  position -0.5761573405844473 3.6928656100178916 1.0591868912801485
+}
+CircleArena {
+}
+Khepera2 {
+  hidden position_0_0 1223.0525581483428
+  hidden position_0_1 916.48193423663
+  hidden rotation_1 0.9999999999999999 0 0 4.252967858856181
+  hidden rotation_2 1 0 0 1.224479901589656
+  translation -0.497401 1.4655e-14 0.464808
+  rotation 0 1 0 -38.36986909435921
+  controller "AK_loveforkapera2"
+}
+Khepera1 {
+  hidden position_0_0 1667.9503211056995
+  hidden position_0_1 1114.6204525825326
+  hidden rotation_2 1 0 0 6.0347506040705445
+  hidden rotation_3 -1 0 0 6.063848518925387
+  translation 0.122229 -3.03992e-05 0.883029
+  rotation 0.0002658819389821855 -0.9999647705159473 0.008389698074630256 1.43412
+  name "Khepera 4"
+  controller "AK_love"
+  extensionSlot [
+    LED {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 1716.766600027007
+  hidden position_0_1 1141.1972623640743
+  hidden rotation_1 -1 0 0 5.0824164741593965
+  hidden rotation_2 0.9999999999999999 0 0 5.05845354261046
+  translation 0.480883 -7.94394e-06 0.449958
+  rotation -0.014996260072018465 0.9993129943889798 0.03389176049105665 2.308086875935729
+  name "Khepera 3"
+  controller "AK_love"
+}
+Khepera1 {
+  hidden position_0_0 1683.391173851255
+  hidden position_0_1 1106.1388897066342
+  hidden rotation_1 0.9999999999999999 0 0 3.1602684728742134
+  hidden rotation_2 1 0 0 2.4177143569729753
+  translation -0.491997 -2.96503e-05 -0.466696
+  rotation 0.007097509234677194 0.9999430715177565 0.0079673763748369 -1.7644384547578111
+  name "Khepera 2"
+  controller "AK_love"
+}
+Khepera1 {
+  hidden position_0_0 1640.405907809671
+  hidden position_0_1 1010.9273896757846
+  hidden rotation_2 -1 0 0 4.119947942978427
+  hidden rotation_3 -1 0 0 2.901750527050803
+  translation 0.469999 -7.38271e-06 -0.465423
+  rotation 0.010937671101896827 -0.9992922987842668 0.035989844974969716 2.54789856052023
+  controller "AK_love"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+PointLight {
+  attenuation 0 0 1
+  color 1 1 0.5
+  intensity 0.75
+  location 0 0.3 0
+}
+Shape {
+  appearance RoughPine {
+  }
+  geometry Cylinder {
+    height 0.01
+    radius 0.2
+  }
+}
+TexturedBackground {
+  luminosity 0
+  skyColor [
+    0 0 0
+    0 0 0
+  ]
+}

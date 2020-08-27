@@ -1,0 +1,116 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.3892278595531594 0.7632167057471858 0.5157537526921927 4.174969139357543
+  position -1.5111427236123507 4.232745583071369 -0.28839323360212377
+}
+TexturedBackground {
+  luminosity 1.5
+}
+CircleArena {
+}
+Khepera1 {
+  translation 0.483818 0.07 -0.484586
+  rotation 0 1 0 1.0472
+  name "Khepera(15)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.0340521 0.07 -0.723466
+  rotation 0 1 0 1.83259
+  name "Khepera(14)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.520946 0.07 -0.455528
+  rotation 0 1 0 -2.6179953071795863
+  name "Khepera(13)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.74544 0.07 0.00196731
+  rotation 0 1 0 -2.6179953071795863
+  name "Khepera(12)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.493325 0 0.507804
+  rotation 0 1 0 -1.3089953071795861
+  name "Khepera(11)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation 0.74241 0 0.0119826
+  name "Khepera(8)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation 0.510425 0 0.500703
+  name "Khepera(9)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation 0.023977 0 0.740313
+  rotation 0 1 0 -0.523595307179586
+  name "Khepera(10)"
+  controller "AK_love"
+}
+Shape {
+  appearance OsbWood {
+  }
+  geometry Cylinder {
+    height 0.01
+    radius 0.2
+  }
+}
+Khepera1 {
+  translation 0.701453 0 -0.655431
+  rotation 0 1 0 1.0472
+  name "Khepera(7)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.676941 -1.77636e-15 0.690496
+  rotation 0 1 0 -1.5707953071795862
+  name "Khepera(6)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.691319 0 -0.68832
+  rotation 0 -1 0 -3.1415853071795863
+  name "Khepera(5)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation 0.688518 -1.77636e-15 0.662803
+  name "Khepera(4)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.962046 0 -0.00103491
+  rotation 0 1 0 -2.6179953071795863
+  name "Khepera(3)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation 0.963828 0 0.00502888
+  name "Khepera(2)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation -0.0033608 0 0.951513
+  rotation 0 1 0 -1.047195307179586
+  name "Khepera(1)"
+  controller "AK_love"
+}
+Khepera1 {
+  translation 0.00467393 1.33227e-15 -0.961868
+  rotation 0 1 0 1.8326
+  controller "AK_love"
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 2
+  location 0 0.3 0
+}

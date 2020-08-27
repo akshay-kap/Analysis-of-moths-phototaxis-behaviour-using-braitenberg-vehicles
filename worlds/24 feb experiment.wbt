@@ -1,0 +1,163 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5123820139811399 0.7229467782980802 0.4634788317680297 4.477059938356534
+  position -1.6190954025245547 4.024843727163703 0.5640620772392593
+}
+CircleArena {
+}
+Khepera1 {
+  hidden position_0_0 186.9986400186006
+  hidden position_0_1 185.75921902679553
+  hidden rotation_2 1 0 0 4.154699196786984
+  hidden rotation_3 1 0 0 5.452330188592058
+  translation -0.601141 -1.6342e-05 0.376863
+  rotation 0.029179793510366647 -0.9994547777196381 0.015449496564006933 1.49983
+  name "Bot 2(7)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 216.97458459888415
+  hidden position_0_1 194.295101799659
+  hidden rotation_2 -1 0 0 0.68850415477821
+  hidden rotation_3 -1 0 0 3.0835525842713984
+  translation -0.615776 0.0399659 -0.327487
+  rotation -0.012792303324676298 0.9999042598717299 -0.005275231371014762 -2.879495307179586
+  name "Bot 2(6)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 186.9986400186006
+  hidden position_0_1 185.75921902679553
+  hidden rotation_2 1 0 0 4.154699196786984
+  hidden rotation_3 1 0 0 5.452330188592058
+  translation -0.641338 -1.6342e-05 0.30796
+  rotation -0.029179793510366647 0.9994547777196381 -0.015449496564006933 -1.4998253071795862
+  name "Bot 2(5)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 216.97458459888415
+  hidden position_0_1 194.295101799659
+  hidden rotation_2 -1 0 0 0.68850415477821
+  hidden rotation_3 -1 0 0 3.0835525842713984
+  translation -0.645426 0.0399659 -0.24739
+  rotation -0.012792303324676298 0.9999042598717299 -0.005275231371014762 -2.879495307179586
+  name "Bot 2(4)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 101.94731133142305
+  hidden position_0_1 115.34520030501773
+  hidden rotation_2 1 0 0 1.2414335834503305
+  hidden rotation_3 1 0 0 0.46812522421482805
+  translation -0.742816 -1.37477e-05 0.0137335
+  rotation -0.021888104130749115 0.9996931886632908 -0.011594802188184898 -2.542725307179586
+  name "Bot 2(3)"
+  controller "AK_love"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 99.32050099222843
+  hidden position_0_1 114.65913868041514
+  hidden rotation_2 1 0 0 3.8682439226449525
+  hidden rotation_3 1 0 0 1.1541868488174156
+  translation -0.720964 -1.42705e-05 0.123518
+  rotation -0.023031193582240768 0.9996517214419635 -0.012884096409781005 -2.070495307179586
+  name "Bot 4(1)"
+  controller "AK_love1_1"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 186.9986400186006
+  hidden position_0_1 185.75921902679553
+  hidden rotation_2 1 0 0 4.154699196786984
+  hidden rotation_3 1 0 0 5.452330188592058
+  translation -0.687271 -1.6342e-05 0.226758
+  rotation -0.029179793510366647 0.9994547777196381 -0.015449496564006933 -1.4998253071795862
+  name "Bot 2(2)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 214.8507702804908
+  hidden position_0_1 198.80685731002671
+  hidden rotation_2 1 0 0 1.435310163615148
+  hidden rotation_3 1 0 0 4.971062519720052
+  translation -0.712476 -2.2126e-05 -0.079362
+  rotation 0.0005763188871162562 0.9999998041297549 0.00024412495218317643 -2.7430153071795864
+  name "Bot 2(1)"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+Khepera1 {
+  hidden position_0_0 216.97458459888415
+  hidden position_0_1 194.295101799659
+  hidden rotation_2 -1 0 0 0.68850415477821
+  hidden rotation_3 -1 0 0 3.0835525842713984
+  translation -0.691061 0.0399659 -0.159706
+  rotation -0.012792303324676298 0.9999042598717299 -0.005275231371014762 -2.879495307179586
+  name "Bot 2"
+  controller "AK_love1_1"
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.5
+  location 0 0.3 0
+}
+Shape {
+  appearance RoughPine {
+  }
+  geometry Cylinder {
+    height 0.01
+    radius 0.2
+  }
+}
+TexturedBackground {
+  luminosity 0
+  skyColor [
+    0 0 0
+    0 0 0
+  ]
+}
