@@ -6,7 +6,7 @@
   - Data analysis by varying light intensivity, attraction coefficient towards light source, and repulsion coefficient among multiple agents is been done in python.
   - SVR and Linear regression models were used to comment on non-linear emergent behavior of the  multiple agents mimicing moth's phototaxis nature.
 
-</b>Read : Report.pdf to understand the complete set up and the analysis carried out </b>
+</b>__Read : Report.pdf to understand the complete set up and the analysis carried out__ </b>
 
 <br> The typical sensor units for Kaphera robots are shown as:
 ![khepera](/images/khepra.PNG)
