@@ -14,5 +14,5 @@ __Read : Report.pdf to understand the complete set up and the analysis carried o
 <br> The starting of world view can be seen as:
 ![Initial World View](/images/simulation_world.PNG)
 
-<br> The comparison of trajectories can be seen from the figure -->:
+<br> The comparison of trajectories can be seen from the figure:
 ![Trajectory comparison with variation in coeffcient of inter - repulsion and attraction towards light](/images/path_comparison.PNG)
